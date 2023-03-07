@@ -1,3 +1,11 @@
+ /*
+ * Filename:    App.js
+ * By:          Justin Fink
+ * Date:		March 06, 2023
+ * Description: This website can get specific subreddit posts, you can then add/unadd posts to your favourite 
+ *              you can then display all favourite posts from all subredits and that is about all. I use the RedditAPI and the WebStorageAPI to 
+ *              get reddit posts and to store the postid for use in the favourites part
+ */
 
 
 import React, { useState, useEffect } from 'react';
